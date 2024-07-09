@@ -1,0 +1,3 @@
+[submodule "ppm2png"]
+	path = ppm2png
+	url = https://github.com/AppleBoiy/ppm2png.git
