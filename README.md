@@ -20,19 +20,3 @@ Version 4.0.0-alpha.2, 2024-04-07
 
 Copyright 2018-2024 Peter Shirley. All rights reserved.
 ```
-
-```mermaid
-graph TD
-    A[Start] --> B{a > b?}
-    B -- Yes --> C[a, b = b, a]
-    B -- No --> D
-    C --> D{b > c?}
-    D -- Yes --> E[b, c = c, b]
-    D -- No --> F
-    E --> F{a > b?}
-    F -- Yes --> G[a, b = b, a]
-    F -- No --> H
-    G --> H[Return a, b, c]
-    H --> I[End]
-
-```
